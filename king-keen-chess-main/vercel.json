@@ -1,0 +1,11 @@
+{
+  "outputDirectory": "dist/client",
+  "buildCommand": "vite build",
+  "rewrites": [{ "source": "/(.*)", "destination": "/_shell.html" }],
+  "build": {
+    "env": {
+      "VITE_SUPABASE_URL": "https://gtkoudguhtmlszuvpkbo.supabase.co",
+      "VITE_SUPABASE_PUBLISHABLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd0a291ZGd1aHRtbHN6dXZwa2JvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxMjgwNTQsImV4cCI6MjA5MzcwNDA1NH0.DnxUIF8LJ-Tx7M-tVNqfSk7o1yg35A1Jh6QU2Fsv3mA"
+    }
+  }
+}
