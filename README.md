@@ -36,6 +36,8 @@ King Keen Chess is not just a chess game — it is a full platform built around 
 
 The project is approximately **10,500 lines of TypeScript/TSX across 95 source files**.
 
+<img width="667" height="598" alt="image" src="https://github.com/user-attachments/assets/b2ac47c4-6795-4376-92c8-4699274a52d0" />
+
 ---
 
 ## Tech Stack
@@ -56,7 +58,10 @@ The project is approximately **10,500 lines of TypeScript/TSX across 95 source f
 
 ## Features
 
+
 ### Mode 1 — Standard Chess
+
+<img width="889" height="605" alt="image" src="https://github.com/user-attachments/assets/140d50e0-1e53-4cd8-be89-ca4e03b11fbe" />
 
 
 The main game supports three sub-modes selectable from the start screen.
@@ -81,9 +86,15 @@ A custom chess engine (`chess-ai.ts`) built from scratch:
 
 **Online game features:** ELO rating updates · In-game chat drawer · Draw offers · Resignation · Spectator mode · Result saved to `game_history`
 
+
+
+
 ---
 
 ### Mode 2 — Training
+
+
+<img width="505" height="640" alt="image" src="https://github.com/user-attachments/assets/89b447cf-34f2-4298-8629-040decb2e60a" />
 
 
 A gamified learning curriculum with 30 levels across 6 themed worlds.
@@ -139,6 +150,8 @@ Life regeneration is calculated client-side from `last_life_lost_at` — no poll
 
 ### Mode 3 — Mini Games
 
+<img width="1044" height="622" alt="image" src="https://github.com/user-attachments/assets/0ef37e31-85b4-4a3d-bd9f-a790361c9d07" />
+
 
 Five chess-variant games, each supporting up to three play modes: vs AI · Local multiplayer · Online multiplayer.
 
@@ -170,6 +183,8 @@ The survivor starts with all 16 pieces. The hunter starts with only a queen (med
 ---
 
 ### Mode 4 — Social Layer
+
+<img width="897" height="382" alt="image" src="https://github.com/user-attachments/assets/89fd6800-0910-452b-9441-822522d861b4" />
 
 
 | Feature | Details |
